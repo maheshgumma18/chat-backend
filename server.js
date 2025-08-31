@@ -8,7 +8,7 @@ const authRoutes = require("./routes/authRoutes");
 
 
 
-mongoose.connect('mongodb+srv://maheshgumma18:asdfghjkl143@cluster0.nhrxp.mongodb.net/myDatabase?retryWrites=true&w=majority/Chatapp').then(()=>{console.log("database connected succesfully")})
+mongoose.connect('mongodb+srv://maheshgumma18:asdfghjkl143@cluster0.nhrxp.mongodb.net/Chatapp?retryWrites=true&w=majority').then(()=>{console.log("database connected succesfully")})
 .catch((err)=>{console.log(err)})
 
 const app = express();
