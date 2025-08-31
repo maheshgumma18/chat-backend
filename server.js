@@ -22,7 +22,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/api/auth", authRoutes);
 
 
-
+app.get("/mahesh",(req,res)=>{
+   res.send("hello mahesh")
+})
 
 const server = http.createServer(app);
 
